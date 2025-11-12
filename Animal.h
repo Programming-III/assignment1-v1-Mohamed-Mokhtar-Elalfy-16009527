@@ -16,16 +16,12 @@ public :
      Animal(string name,int age,bool isHungry);
      virtual void display();
      void feed();
-     string getname(){
-     return name;}
-    int getage(){
-    return age;}
-    bool getisHungry(){
-    return isHungry;}
+     string getname();
+    int getage();
+    bool getisHungry();
      void setname(string r);
     void setage(int x);
     void setisHungry(bool y);
 };
-
 
 #endif
