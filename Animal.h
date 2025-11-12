@@ -5,7 +5,27 @@
 using namespace std;
 
 //define animal class here 
-
+class Animal{
+private:
+    string name;
+    int age;
+    bool isHungry;
+public :
+    Animal();
+     ~Animal();
+     Animal(string name,int age,bool isHungry);
+     virtual void display();
+     void feed();
+     string getname(){
+     return name;}
+    int getage(){
+    return age;}
+    bool getisHungry(){
+    return isHungry;}
+     void setname(string r);
+    void setage(int x);
+    void setisHungry(bool y);
+};
 
 
 #endif
