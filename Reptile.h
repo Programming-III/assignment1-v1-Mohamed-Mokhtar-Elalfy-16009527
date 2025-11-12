@@ -7,7 +7,16 @@
 
 
 
-
+class Reptile:public Animal{
+private:
+    bool isvenomous;
+public:
+    Reptile();
+    ~Reptile();
+    Reptile(string name,int age,bool isHungry,bool isvenomous);
+    bool getisvenomous();
+    void setisvenomous(bool r);
+};
 
 
 
